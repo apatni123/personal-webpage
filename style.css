@@ -37,6 +37,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  font-size: 18px;
 }
 
 /* Header and Navigation */
@@ -146,6 +147,16 @@ img{
   text-align: center;
   height: 50px;
 }
+
+.project img {
+  height: 500px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+
 
   
 /* Footer */
