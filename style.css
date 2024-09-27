@@ -5,8 +5,6 @@
 body {
   min-height: 100vh;
   line-height: 1.5;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 h1,
@@ -19,9 +17,7 @@ h6 {
   text-wrap: balance;
 }
 
-img {
-  max-width: 100%;
-}
+
 
 nav a {
   text-decoration: none;
@@ -31,7 +27,115 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Can be used to style the active navigation link. */
-[aria-current="page"] {
-  text-decoration: underline;
+
+/*My styling*/
+/* Style for the body and font */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF5F7; /* Pastel pink */
+  color: #3E4C59; /* Muted dark gray */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
+
+/* Header and Navigation */
+header {
+  background-color: #B7E4C7; /* Pastel green */
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3E4C59; /* Muted dark gray */
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  color: #FFF5F7; /* Pastel pink */
+}
+
+/* Main content */
+main {
+ 
+  padding: 50px;
+}
+
+main h1 {
+  font-size: 2.5em;
+  color: #3E4C59; /* Muted dark gray */
+  text-align: center;
+}
+/* Main content */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px; /* Space between columns */
+  align-items: start;
+  padding: 20px;
+}
+
+.left-side {
+  text-align: left;
+}
+
+.right-side {
+  text-align: left;
+}
+
+#introPic {
+  max-width: 100%; /* Make sure the image fits within its column */
+  height: auto;
+}
+
+.caption {
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.travelContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; 
+  align-items: center;
+  padding: 20px;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+
+}
+
+#skills{
+  padding-left: 20px;
+}
+
+.education-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px; 
+
+/* Footer */
+footer {
+  background-color: #B7E4C7;
+  color: #3E4C59;
+  text-align: center;
+  padding: 20px;
+}
+
