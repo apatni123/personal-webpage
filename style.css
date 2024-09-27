@@ -125,12 +125,29 @@ img{
   padding-left: 20px;
 }
 
-.education-container {
+.education-container, .professional-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 10px; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  gap: 10px;
+  border: black solid 3px;
+  padding: 0px;
+}
 
+.grid-header {
+  font-weight: bold;
+  padding: 0px;
+  background-color: rgb(235, 192, 222); /* Same background for both headers */
+  text-align: center;
+}
+
+.grid-item {
+  background-color: #FFF5F7; /* Pastel pink background */
+  padding: 10px;
+  text-align: center;
+  height: 50px;
+}
+
+  
 /* Footer */
 footer {
   background-color: #B7E4C7;
